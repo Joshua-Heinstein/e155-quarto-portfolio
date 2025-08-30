@@ -1,0 +1,22 @@
+---
+title: "E155 Portfolio"
+image: images/headshot.jpg
+about:
+    template: jolla
+    links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/joshua-heinstein/
+    - icon: github
+      text: Github
+      href: https://github.com/Joshua-Heinstein
+---
+I'm Joshua Heinstein and I am a senior studying Electrical Engineering at Harvey Mudd College. This semester I am taking Microprocessor-based systems, and I will be documenting my work on this page. I am also working on a robotic system for XDemics Corporation's bioreactors through Mudd's clinic program. I find digital electronics and robotics exciting, and I look forward to sharing my work here. 
+
+Outside of my schoolwork, my hobbies include skiing, lifting, listening to music, and messing with old audio equipment. 
+
+
+
+I also love my bird
+
+![](images/birb.jpg)

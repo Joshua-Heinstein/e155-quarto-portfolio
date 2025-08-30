@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "E155 Portfolio",
+    "section": "",
+    "text": "I’m Joshua Heinstein and I am a senior studying Electrical Engineering at Harvey Mudd College. This semester I am taking Microprocessor-based systems, and I will be documenting my work on this page. I am also working on a robotic system for XDemics Corporation’s bioreactors through Mudd’s clinic program. I find digital electronics and robotics exciting, and I look forward to sharing my work here.\nOutside of my schoolwork, my hobbies include skiing, lifting, listening to music, and messing with old audio equipment.\nI also love my bird"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "Hello Quarto",
+    "section": "",
+    "text": "This is a sentence of placeholder text!!"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "Hello Quarto\n\n\nWelcome to my Quarto portfolio\n\n\n\n\n\nAug 29, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\nNo matching items"
+  }
+]
