@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "E155 Website: https://hmc-e155.github.io/"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "E155 Labs",
+    "section": "",
+    "text": "Lab 1: FPGA and MCU Setup and Testing\n\n\nLab 1 Report\n\n\n\n\n\nSep 4, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\n\n\n\n\n\n\n\nLab 2: Multiplexed 7-Segment Display\n\n\nLab 2 Report\n\n\n\n\n\nSep 11, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\n\n\n\n\n\n\n\nLab 3: Keypad Scanner\n\n\nLab 3 Report\n\n\n\n\n\nSep 18, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\n\n\n\n\n\n\n\nLab 4: Digital Audio\n\n\nLab 4 Report\n\n\n\n\n\nOct 2, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\n\n\n\n\n\n\n\nLab 5: Interrupts\n\n\nLab 5 Report\n\n\n\n\n\nOct 9, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\n\n\n\n\n\n\n\nLab 6: The Internet of Things and Serial Peripheral Interface\n\n\nLab 6 Report\n\n\n\n\n\nOct 23, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\n\n\n\n\n\n\n\nLab 7: The Advanced Encryption Standard\n\n\nLab 7 Report\n\n\n\n\n\nOct 30, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "labs/lab1/lab1.html",
+    "href": "labs/lab1/lab1.html",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "",
+    "text": "I hope this shows up"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "E155 Portfolio",
+    "section": "",
+    "text": "I’m Joshua Heinstein and I am a senior studying Electrical Engineering at Harvey Mudd College. This semester I am taking Microprocessor-based systems, and I will be documenting my work on this page. I am also working on a robotic system for XDemics Corporation’s bioreactors through Mudd’s clinic program. I find digital electronics and robotics exciting, and I look forward to sharing my work here.\nOutside of my schoolwork, my hobbies include skiing, lifting, listening to music, and messing with old audio equipment.\nI also love my bird"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "Lab 1 Blog\n\n\nThis is taking a minute\n\n\n\n\n\nAug 29, 2025\n\n\nJoshua Heinstein\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "Lab 1 Blog",
+    "section": "",
+    "text": "My initial blog post is about what I’m hoping to get out of MicroPs. I am excited by the possibilities of what I can accomplish by learning how to create embedded systems. I am looking forward to learning how to influence the physical world from the digital domain. I have heard of many cool MicroPs final projects throughout my time at Mudd, and I can’t wait to work on a project of my own! I am really hoping to keep an efficient work schedule so I can learn everything this course has to offer, and effectively apply this learning to my clinic project working on a robotic system for XDemics’ bioreactor."
+  }
+]
