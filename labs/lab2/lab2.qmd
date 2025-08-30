@@ -1,0 +1,10 @@
+---
+title: "Lab 2: Multiplexed 7-Segment Display"
+description: "Lab 2 Report"
+author: "Joshua Heinstein"
+date: "9/11/2025"
+categories:
+  - reflection
+  - labreport
+draft: false
+---

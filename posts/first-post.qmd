@@ -1,6 +1,6 @@
 ---
-title: "Hello Quarto"
-description: "Welcome to my Quarto portfolio"
+title: "Lab 1 Blog"
+description: "This is taking a minute"
 author: "Joshua Heinstein"
 date: "8/29/2025"
 categories:
@@ -9,5 +9,4 @@ categories:
 draft: false
 ---
 
-This is a sentence of placeholder text!!
-
+My initial blog post is about what I'm hoping to get out of MicroPs. I am excited by the possibilities of what I can accomplish by learning how to create embedded systems. I am looking forward to learning how to influence the physical world from the digital domain. I have heard of many cool MicroPs final projects throughout my time at Mudd, and I can't wait to work on a project of my own! I am really hoping to keep an efficient work schedule so I can learn everything this course has to offer, and effectively apply this learning to my clinic project working on a robotic system for XDemics' bioreactor.

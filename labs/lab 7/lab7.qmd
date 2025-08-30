@@ -1,0 +1,10 @@
+---
+title: "Lab 7: The Advanced Encryption Standard"
+description: "Lab 7 Report"
+author: "Joshua Heinstein"
+date: "10/30/2025"
+categories:
+  - reflection
+  - labreport
+draft: false
+---

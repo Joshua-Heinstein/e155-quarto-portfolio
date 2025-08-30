@@ -1,0 +1,12 @@
+---
+title: "Lab 1: FPGA and MCU Setup and Testing"
+description: "Lab 1 Report"
+author: "Joshua Heinstein"
+date: "9/4/2025"
+categories:
+  - reflection
+  - labreport
+draft: false
+---
+
+I hope this shows up

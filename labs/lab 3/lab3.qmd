@@ -1,0 +1,10 @@
+---
+title: "Lab 3: Keypad Scanner"
+description: "Lab 3 Report"
+author: "Joshua Heinstein"
+date: "9/18/2025"
+categories:
+  - reflection
+  - labreport
+draft: false
+---
