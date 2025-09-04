@@ -18,7 +18,63 @@
     "href": "labs/lab1/lab1.html",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "",
-    "text": "I hope this shows up"
+    "text": "In this lab, a design was implemented on the FPGA to demonstrate the functionality of the on-board high-speed oscillator, DIP switches, and a 7-segment display. The high speed oscillator was configured with a frequency of 24 MHz and divided with a counter to blink an LED at a frequency of 2.4Hz. 4 DIP switches represented a binary input that was used to drive a 7-segment display to show that binary value’s hexadecimal representation.\nThis lab meets all specs for Proficiency, and is one away from excellence\nI spent about 32 hours on this lab."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#introduction",
+    "href": "labs/lab1/lab1.html#introduction",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "",
+    "text": "In this lab, a design was implemented on the FPGA to demonstrate the functionality of the on-board high-speed oscillator, DIP switches, and a 7-segment display. The high speed oscillator was configured with a frequency of 24 MHz and divided with a counter to blink an LED at a frequency of 2.4Hz. 4 DIP switches represented a binary input that was used to drive a 7-segment display to show that binary value’s hexadecimal representation.\nThis lab meets all specs for Proficiency, and is one away from excellence\nI spent about 32 hours on this lab."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#design-and-testing-methodology",
+    "href": "labs/lab1/lab1.html#design-and-testing-methodology",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Design and Testing Methodology",
+    "text": "Design and Testing Methodology\nThe HSOSC onboard the FPGA was configured to operate at 24MHz, and divided with a counter to 5M to make the LED blink every 1/2.4 seconds, i.e. 2.4Hz. A clock divider was created in the top module.\nThe LEDs soldered onto the board were used. LED2 was the oscillating one, while LED0 and LED1 were toggled using combinational logic where LED0 = s0^s1, and LED1 = s2&s3.\nThe 7 segment display was placed on a breadboard with a 3.3V source,1kΩ current limiting resistors leading to ground at the FPGA pins. Combinational logic was used to translate the binary from the switches to specific combinations of LED segments that would display 0-f."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#technical-documentation",
+    "href": "labs/lab1/lab1.html#technical-documentation",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Technical Documentation",
+    "text": "Technical Documentation\nThe source code for the project can be found in the associated Github repository."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#block-diagram",
+    "href": "labs/lab1/lab1.html#block-diagram",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Block Diagram",
+    "text": "Block Diagram\n The block diagram in figure 1 shows the general architecture of the design for lab 1. The top module includes the 7 segment display module, and it also contains the oscillator, counter, and a couple floating gates to drive 2 of the LEDs."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#schematic",
+    "href": "labs/lab1/lab1.html#schematic",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Schematic",
+    "text": "Schematic\n\nThe schematic in figure 2 shows the physical design of the circuit. Each segment of the display was powered by a 3.3v source, passed through the LED then a current-limiting resistor, and grounded through the FPGA pins to be able to choose which LEDs were on at a given time by allowing current to flow."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#results-and-discussion",
+    "href": "labs/lab1/lab1.html#results-and-discussion",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Results and Discussion",
+    "text": "Results and Discussion\nThe design met all intended design objectives. I was able to complete one of my Questasim simulations for the top module, but not the one for the sevseg module."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#conclusion",
+    "href": "labs/lab1/lab1.html#conclusion",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Conclusion",
+    "text": "Conclusion\nMy design was able to blink an LED at 2.4Hz, light 2 LEDs with combinational logic from system inputs, and use combinational logic to translate between binary input values and a hexadecimal display output."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#ai-prototype",
+    "href": "labs/lab1/lab1.html#ai-prototype",
+    "title": "Lab 1: FPGA and MCU Setup and Testing",
+    "section": "AI Prototype",
+    "text": "AI Prototype\n\nYielded error: Error 35901063 Synthesis ERROR &lt;35901063&gt; - c:/users/jheinstein/desktop/microp/lab1/aiproj/source/impl_1/ai.sv(16): instantiating unknown module SB_HFOSC. VERI-1063 [ai.sv:16]\nGPT said to use this code:\n\nIt kept generating the same error codes.\nChat GPT was clearly unable to realize it did the exact same thing that was causing the problem in the first attempt. This makes it frustrating to use LLMs for this type of work because you can tell it exactly what is wrong and it will keep doing the same wrong thing. The quality of this output is quite low because it didn’t work and didn’t get any better. I was not familiar with the way it wanted to instantiate the clock. The LLM generated code did not synthesize because the core way it is trying to generate the clock is not working. Next time, I might think about using the LLM to find a specific issue I have rather than starting from scratch and having it generate me a completely wrong thing."
   },
   {
     "objectID": "index.html",
