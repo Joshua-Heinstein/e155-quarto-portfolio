@@ -132,7 +132,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#technical-documentation" id="toc-technical-documentation" class="nav-link" data-scroll-target="#technical-documentation">Technical Documentation</a></li>
   <li><a href="#block-diagram" id="toc-block-diagram" class="nav-link" data-scroll-target="#block-diagram">Block Diagram</a></li>
   <li><a href="#schematic" id="toc-schematic" class="nav-link" data-scroll-target="#schematic">Schematic</a></li>
-  <li><a href="#results-and-discussion" id="toc-results-and-discussion" class="nav-link" data-scroll-target="#results-and-discussion">Results and Discussion</a></li>
+  <li><a href="#resistor-calculations" id="toc-resistor-calculations" class="nav-link" data-scroll-target="#resistor-calculations">Resistor Calculations</a></li>
+  <li><a href="#results-and-discussion" id="toc-results-and-discussion" class="nav-link" data-scroll-target="#results-and-discussion">Results and Discussion</a>
+  <ul class="collapse">
+  <li><a href="#testbench-simulation" id="toc-testbench-simulation" class="nav-link" data-scroll-target="#testbench-simulation">Testbench Simulation</a></li>
+  </ul></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#ai-prototype" id="toc-ai-prototype" class="nav-link" data-scroll-target="#ai-prototype">AI Prototype</a></li>
   </ul>
@@ -184,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>In this lab, a design was implemented on the FPGA to demonstrate the functionality of the on-board high-speed oscillator, DIP switches, and a 7-segment display. The high speed oscillator was configured with a frequency of 24 MHz and divided with a counter to blink an LED at a frequency of 2.4Hz. 4 DIP switches represented a binary input that was used to drive a 7-segment display to show that binary value’s hexadecimal representation.</p>
-<p>This lab meets all specs for Proficiency, and is one away from excellence</p>
+<p>This lab is completely Excellent!</p>
 <p>I spent about 32 hours on this lab.</p>
 </section>
 <section id="design-and-testing-methodology" class="level2">
@@ -199,16 +203,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="block-diagram" class="level2">
 <h2 class="anchored" data-anchor-id="block-diagram">Block Diagram</h2>
-<p><img src="images/blockdiagram.PNG" class="img-fluid"> The block diagram in figure 1 shows the general architecture of the design for lab 1. The top module includes the 7 segment display module, and it also contains the oscillator, counter, and a couple floating gates to drive 2 of the LEDs.</p>
+<p>Joshua Heinstein, 9/4/2025 <img src="images/blockdiagram.PNG" class="img-fluid"> The block diagram in figure 1 shows the general architecture of the design for lab 1. The top module includes the 7 segment display module, and it also contains the oscillator, counter, and a couple floating gates to drive 2 of the LEDs.</p>
 </section>
 <section id="schematic" class="level2">
 <h2 class="anchored" data-anchor-id="schematic">Schematic</h2>
-<p><img src="images/schematic.PNG" class="img-fluid"></p>
+<p>Joshua Heinstein, 9/4/2025 <img src="images/schematic.PNG" class="img-fluid"></p>
 <p>The schematic in figure 2 shows the physical design of the circuit. Each segment of the display was powered by a 3.3v source, passed through the LED then a current-limiting resistor, and grounded through the FPGA pins to be able to choose which LEDs were on at a given time by allowing current to flow.</p>
+</section>
+<section id="resistor-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="resistor-calculations">Resistor Calculations</h2>
+<p><img src="images/File_000.png" class="img-fluid"> The calculations for resistor values to provide appropriate amounts of current are shown here.</p>
 </section>
 <section id="results-and-discussion" class="level2">
 <h2 class="anchored" data-anchor-id="results-and-discussion">Results and Discussion</h2>
-<p>The design met all intended design objectives. I was able to complete one of my Questasim simulations for the top module, but not the one for the sevseg module.</p>
+<section id="testbench-simulation" class="level3">
+<h3 class="anchored" data-anchor-id="testbench-simulation">Testbench Simulation</h3>
+<p><img src="images/topquesta.png" class="img-fluid"> Top module simulation <img src="images/sevseg.png" class="img-fluid"> sevseg module simulation</p>
+<p>The design met all intended design objectives. I was able to complete a Questasim simulation with test vectors for both the top and sevseg modules, and they both passed all test cases.</p>
+</section>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
@@ -221,7 +233,7 @@ ul.task-list li input[type="checkbox"] {
 <p>GPT said to use this code:</p>
 <p><img src="images/ai2.png" class="img-fluid"></p>
 <p>It kept generating the same error codes.</p>
-<p>Chat GPT was clearly unable to realize it did the exact same thing that was causing the problem in the first attempt. This makes it frustrating to use LLMs for this type of work because you can tell it exactly what is wrong and it will keep doing the same wrong thing. The quality of this output is quite low because it didn’t work and didn’t get any better. I was not familiar with the way it wanted to instantiate the clock. The LLM generated code did not synthesize because the core way it is trying to generate the clock is not working. Next time, I might think about using the LLM to find a specific issue I have rather than starting from scratch and having it generate me a completely wrong thing.</p>
+<p>ChatGPT was clearly unable to realize it did the exact same thing that was causing the problem in the first attempt. This makes it frustrating to use LLMs for this type of work because you can tell it exactly what is wrong and it will keep doing the same wrong thing. The quality of this output is quite low because it didn’t work and didn’t get any better. I was not familiar with the way it wanted to instantiate the clock. The LLM generated code did not synthesize because the core way it is trying to generate the clock is not working. Next time, I might think about using the LLM to find a specific issue I have rather than starting from scratch and having it generate me a completely wrong thing.</p>
 
 
 </section>
